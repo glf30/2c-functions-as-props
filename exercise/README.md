@@ -22,7 +22,7 @@ We are going to create a simple task manager application that displays a list of
 
 Open /src/App.jsx. This file is an example component that Vite starts us with. You can delete everything in this file. Then at the top of the file, you can create a functional component named App. Don't forget to export it.
 
-Create a <div> inside of the return() statement.
+Create a `<div>` inside of the return() statement.
 
 ```jsx
 function App() {
@@ -32,7 +32,7 @@ function App() {
 export default App;
 ```
 
-Then inside the <div> create a heading <h1>Task Manager</h1>.
+Then inside the `<div>` create a heading `<h1>Task Manager</h1>`.
 
 ```jsx
 function App() {
@@ -63,7 +63,7 @@ function App() {
 
 In VS Code, in the File Explorer to the left, right-click on the /src/ folder and select New File. Name the file Task.jsx.
 
-Open /src/Task.jsx and create a function called Task that returns a <div> inside of parentheses. Don't forget to export the function at the bottom of the file.
+Open /src/Task.jsx and create a function called Task that returns a `<div>` inside of parentheses. Don't forget to export the function at the bottom of the file.
 
 Inside the `div`, let's write some placeholder text: `This is a Task.`
 
@@ -77,7 +77,7 @@ export default Task;
 
 Let's try to import this Task into our App component. Open /src/App.jsx again and after importing React, create a new line to import our Task: `import Task from './Task';`
 
-Then, inside of the <div>, render your Task component with <Task />.
+Then, inside of the `<div>`, render your Task component with `<Task />`.
 
 ```jsx
 import Task from "./Task";
