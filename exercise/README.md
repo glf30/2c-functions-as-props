@@ -101,7 +101,8 @@ Save and check the browser. You should see the text: "This is a Task"
 ## Passing Functions as Props and Iterating Manually
 Create an array of tasks.  A task should consist of an **id**, **title**, and **description**.
 
-Let's use props to pass functions from our App component to our Task component. We will create functions to mark tasks as complete and delete them. We'll also iterate over an array of tasks manually.
+Let's use props to pass functions from our App component to our Task component. We will create functions to mark tasks as complete or delete them. 
+We'll also iterate over an array of tasks manually.
 
 Open /src/App.jsx and create two functions to handle actions: `completeTask` and `deleteTask`. Both should take in the task title as a parameter and alert the user that the task has been completed or deleted.  
 
