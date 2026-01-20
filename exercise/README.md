@@ -3,47 +3,24 @@
 Build a simple task manager that displays a list of tasks.
 Each task should show its **title** and **description**, along with buttons to **complete** or **delete** the task.
 
-This exercise focuses on **passing functions as props** and **manually iterating over data**.
-
 ### Requirements
 
-* Create an `App` component that:
+* The `App` component should:
 
   * Displays a heading: **Task Manager**
-  * Holds an array of tasks
+  * Holds an array of at least 3 tasks
     Each task should have:
 
     * `id`
     * `title`
     * `description`
-  * Defines two functions:
-
-    * `completeTask(title)`
-    * `deleteTask(title)`
-  * Each function should `alert` something like:
-
-    * `"Completed [task title]"`
-    * `"Deleted [task title]"`
-
-* Create a `Task` component that:
-
-  * Receives a single task as props
-  * Displays:
-
+      
+  * This information should be displayed with its own component that showcases:
     * The task title
     * The task description
     * A **Complete** button
     * A **Delete** button
 
-* Pass the following from `App` to each `Task`:
+When a button is clicked, display an alert that showcases both the title of the task, along with if the task was Completed or Deleted depending on the button clicked. 
 
-  * The task data
-  * The `completeTask` function
-  * The `deleteTask` function
-
-* When a button is clicked:
-
-  * The appropriate function should be called from the parent
-  * The task’s **title** should be passed as an argument
-
-* Render multiple `Task` components by **manually mapping** over the tasks array in `App`
+Feel free to set up your components however you want.  AS long as every task in the array is displayed and the buttons do what they are supposed to do, you are good!
