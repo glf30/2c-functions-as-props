@@ -1,4 +1,4 @@
-## Exercise: Task Manager App (Functions as Props)
+## Exercise: Task Manager App
 
 Build a simple task manager that displays a list of tasks.
 Each task should show its **title** and **description**, along with buttons to **complete** or **delete** the task.
